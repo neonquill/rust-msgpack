@@ -3,6 +3,7 @@
 #![crate_type = "lib"]
 #![feature(old_io, core)]
 
+extern crate rustc;
 extern crate rustc_serialize;
 extern crate byteorder;
 
@@ -13,6 +14,7 @@ use byteorder::{BigEndian, ReadBytesExt, WriteBytesExt};
 use std::str::from_utf8;
 use std::mem;
 
+use rustc::util::num::ToPrimitive;
 use rustc_serialize::{Encodable, Decodable};
 
 type MsgpackResult<T> = Result<T, byteorder::Error>;
