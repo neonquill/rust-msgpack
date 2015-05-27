@@ -1,5 +1,3 @@
 sudo: false
 language: rust
-notifications:
-  email:
-    - michaelneuma@gmail.com
+rust: stable
