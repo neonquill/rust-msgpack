@@ -562,7 +562,7 @@ impl<'a> Encoder<'a> {
             let mut encoder = Encoder::new(&mut m as &mut Write);
             try!(t.encode(&mut encoder));
         }
-        Ok(m.into_inner())
+        Ok(m)
     }
 
     /// Emits the most efficient representation of the given unsigned integer
