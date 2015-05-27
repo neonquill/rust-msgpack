@@ -1,5 +1,5 @@
 sudo: false
 language: rust
+rust: 1.0.0
 notifications:
-  email:
-    - michaelneuma@gmail.com
+  email: false
