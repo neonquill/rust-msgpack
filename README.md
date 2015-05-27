@@ -1,9 +1,11 @@
 # rust-msgpack [![Build Status][travis-image]][travis-link]
 
-[travis-image]: https://travis-ci.org/mneumann/rust-msgpack.png?branch=master
-[travis-link]: https://travis-ci.org/mneumann/rust-msgpack
+[travis-image]: https://travis-ci.org/neonquill/rust-msgpack.png?branch=rust_1.0.0
+[travis-link]: https://travis-ci.org/neonquill/rust-msgpack
 
 [Msgpack][msgpack-home] implementation for [Rust][rust-home] language.
+
+Modified version to work with 1.0.0.
 
 [msgpack-home]: http://www.msgpack.org
 [rust-home]: http://www.rust-lang.org
